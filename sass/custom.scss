@@ -1,0 +1,135 @@
+//Custom Css
+
+/*Color Variables*/
+$lime: #b0eb00;
+$bright-red: #b30015;
+$dark-blue: #2a00b3;
+$deep-cerulean: #0077b3;
+$bondi-blue: #00b0b3;
+$cyan: #24fbff;
+$heliotrope: #8a7dff;
+$silver-chalice: #a6a6a6;
+$scorpion: #595959;
+$tundora: #444;
+$mine-shaft: #363636;
+$cod-gray: #111;
+
+body{
+	margin:0;
+}
+
+.frontpage{
+	height:94vh;
+	background: url("https://starryiskies.files.wordpress.com/2013/10/img_2023.jpg");
+	background-size:cover;
+	background-position:right;
+	background-attachment:fixed;
+
+	img{
+		width: 55%;
+		margin-left: 22.5%;
+		padding-top:2.5%;
+		padding-bottom:10%;
+	}
+
+	.buttons{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: nowrap;
+		flex-direction: row;
+		margin-top: 100px;
+
+
+		button:first-child{
+			margin-right: 100px;
+		}
+
+		button{
+			margin-top: 0px;
+			font-size: 2em;
+			padding: 15px 30px;
+			background:transparent;
+			border: 3px solid white;
+			color: white;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 300;
+		}
+
+	}
+}
+
+.secondpage{
+	// background:url("http://s.iamafoodblog.com/wp-content/uploads/2015/03/broccoli-soba-bowl-6w.jpg");
+	background-size:cover;
+	background-position:right;
+	height:42vh;
+	background-attachment:fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: nowrap;
+	flex-direction: column;
+
+
+	h1{
+		margin:0;
+		text-align: center;
+		color: black;
+		text-transform:uppercase;
+		font-family: Helvetica;
+		font-size: 2.8em;
+		width: 100%;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 800;
+		margin-bottom: 40px;
+	}
+
+	h3{
+		margin:0;
+		text-align: center;
+		color: black;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 1.2em;
+		width: 60%;
+		font-weight: 300;
+		opacity: .8;
+		line-height: 1.8em;
+	}
+}
+
+.thirdpage{
+	background:url("https://wanderbugchronicles.files.wordpress.com/2015/01/photo-15.jpg");
+	background-size:cover;
+	background-position:right;
+	height:60vh;
+	background-attachment:fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: nowrap;
+	flex-direction: column;
+
+	h2{
+		margin:0;
+		text-align: center;
+		color: white;
+		text-transform:uppercase;
+		font-family: Helvetica;
+		font-size: 3.8em;
+		width: 100%;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 800;
+		margin-bottom: 40px;
+		width: 40%;
+		text-shadow:3px 3px solid black;
+	}
+}
+
+.fourthpage{
+	// background:url("https://wanderbugchronicles.files.wordpress.com/2015/01/photo-15.jpg");
+	background-size:cover;
+	background-position:right;
+	height:80vh;
+	// background-attachment:fixed;
+}
